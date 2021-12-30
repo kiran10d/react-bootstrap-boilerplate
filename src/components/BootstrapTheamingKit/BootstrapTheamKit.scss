@@ -1,0 +1,31 @@
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+
+@include media-breakpoint-down(xs){ 
+    .bg{
+       background-color: aqua;
+    }
+ }
+ @include media-breakpoint-up(sm) { 
+   .bg{
+      background-color: green;
+   }
+}
+ @include media-breakpoint-up(md) { 
+    .bg{
+       background-color: red;
+    }
+ }
+ @include media-breakpoint-up(lg) { 
+    .bg{
+       background-color: blue;
+    }
+ }
+ @include media-breakpoint-up(xl) { 
+    .bg{
+       background-color: orange;
+    }
+ }
